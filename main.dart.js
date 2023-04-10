@@ -59397,9 +59397,9 @@ s=l.e
 r=t.w
 q=a.O(r).f.a.a>=600?37:21
 q=A.z3(A.b0(A.an("Education",A.ao(B.dh),k,k),B.p),s,q)
-if(a.O(r).f.a.a>=600)s=l.e<38?0:l.a.c.b
-else s=l.e<22?0:l.a.c.b
-r=A.bI(0,0,1)
+if(a.O(r).f.a.a>=600)s=l.e<38?200:l.a.c.b
+else s=l.e<25?200:l.a.c.b
+r=A.bI(0,0,5)
 p=A.cu(20)
 o=t.E
 p=A.b0(A.bg(A.b([A.bn(k,A.bg(A.b([A.en(j,k,k,k),new A.bW(1,B.G,A.b0(new A.aX(B.aE,A.ce(A.b([A.ce(A.b([A.an(i,A.ao(B.bH),B.ax,k),A.an(h,A.ao(A.dH(k,k,B.al,k,k,k,k,k,k,k,k,25,k,k,B.m,k,k,!0,k,k,k,k,k,k,k,k)),B.ax,k)],o),B.n,B.t),B.bg,A.an("SSLC - 2015",A.ao(B.bG),k,k)],o),B.n,B.bd),k),B.p),k)],o),B.n,B.t,B.r),B.j,k,k,new A.ck(B.aC,k,k,p,k,k,B.N),k,125,k,k,k,k,400),A.bn(k,k,B.j,B.cC,k,k,k,2,k,k,k,k,200)],o),B.n,B.t,B.r),B.p)
@@ -59438,13 +59438,13 @@ a0=a.b-50
 if(a0<500)a0=500
 r=h.e
 q=t.w
-p=a1.O(q).f.a.a>=600?20:13
+p=a1.O(q).f.a.a>=600?20:14
 p=A.z3(A.b0(A.an("Experience",A.ao(B.dh),g,g),B.p),r,p)
 if(a1.O(q).f.a.a>=600){r=h.e
 o=h.a
 r=r<21?o.c.a/2:o.c.a}else{r=h.e
 o=h.a
-r=r<14?o.c.a/2:o.c.a}o=o.c.b-50
+r=r<15?o.c.a/2:o.c.a}o=o.c.b-50
 if(o<500)o=500
 n=A.bI(0,0,1)
 m=t.E
@@ -59528,11 +59528,11 @@ s.aG()}}
 A.uC.prototype={
 ad(){return new A.JP(A.b([],t.E),B.k)}}
 A.JP.prototype={
-aC(){var s="Visual code - Flutter",r="assets/skills/flutterimg.png",q="assets/skills/vscodeimg.png",p="assets/projects/istitchlogo.png",o="assets/skills/javaimg1.png",n="assets/skills/androidstudioimg.png",m=this.e
-m.push(A.Xa("Players Meet is used to connect nearby sports players. In this application, we can create our own team or join into some other's team. With the use of Google maps,we can search challenges, players, or teams.","assets/projects/playersmeetlogo.png","Players Meet","https://play.google.com/store/apps/details?id=com.prigo.playersmeet",r,q,s))
-m.push(A.Xa("Customers can select the dress and pattens and then create their measurements for clothes and make an order for stitching. After stitching completed you customer can receive the cloth by admin. All the details can be tracked in this application.",p,"Istitch-Botique","https://play.google.com/store/apps/details?id=com.kittivaasal.boutique",o,n,"Android Studio - Java"))
-m.push(A.Xa("Photographer can make a note like event name, event date and timing etc.If event is confirmed by the customer means photographer can hire a photographer at the particular event location. And also we can search a job in this application.","assets/projects/chimpiklogo.png","Chimpik","https://play.google.com/store/apps/details?id=com.kittivaasal.chimpik",r,q,s))
-m.push(A.Xa("Tailors can receive the orders by admin. After the cloth recived by the admin, tailor can stitched and delivered to the admin.All the details can be tracked in this application.",p,"Istitch-Tailor","https://play.google.com/store/apps/details?id=com.kittivaasal.istitchtailors",o,n,s))
+aC(){var s="Visual code - Flutter",r="assets/skills/flutterimg.png",q="assets/skills/vscodeimg.png",p="Android Studio - Java",o="assets/projects/istitchlogo.png",n="assets/skills/javaimg1.png",m="assets/skills/androidstudioimg.png",l=this.e
+l.push(A.Xa("Players Meet is used to connect nearby sports players. In this application, we can create our own team or join into some other's team. With the use of Google maps,we can search challenges, players, or teams.","assets/projects/playersmeetlogo.png","Players Meet","https://play.google.com/store/apps/details?id=com.prigo.playersmeet",r,q,s))
+l.push(A.Xa("Customers can select the dress and pattens and then create their measurements for clothes and make an order for stitching. After stitching completed you customer can receive the cloth by admin. All the details can be tracked in this application.",o,"Istitch-Botique","https://play.google.com/store/apps/details?id=com.kittivaasal.boutique",n,m,p))
+l.push(A.Xa("Photographer can make a note like event name, event date and timing etc.If event is confirmed by the customer means photographer can hire a photographer at the particular event location. And also we can search a job in this application.","assets/projects/chimpiklogo.png","Chimpik","https://play.google.com/store/apps/details?id=com.kittivaasal.chimpik",r,q,s))
+l.push(A.Xa("Tailors can receive the orders by admin. After the cloth recived by the admin, tailor can stitched and delivered to the admin.All the details can be tracked in this application.",o,"Istitch-Tailor","https://play.google.com/store/apps/details?id=com.kittivaasal.istitchtailors",n,m,p))
 this.b0()},
 L(a){var s,r,q,p,o,n=this,m=null,l=n.a,k=l.d
 l=l.c.b
@@ -59571,7 +59571,7 @@ k=l.b-50
 if(k<500)k=500
 s=n.r
 r=t.w
-q=a.O(r).f.a.a>=600?11:7
+q=a.O(r).f.a.a>=600?11:8
 q=A.z3(A.b0(A.an("Skills",A.ao(B.dh),m,m),B.p),s,q)
 if(a.O(r).f.a.a>=600)s=n.r<13?200:n.a.c.b
 else s=n.r<9?200:n.a.c.b

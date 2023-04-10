@@ -1,7 +1,7 @@
 {
     "name": "portfolio1",
     "short_name": "portfolio1",
-    "start_url": ".",
+    "start_url": "https://jeeva-s.github.io/portfolio/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
